@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.inner {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: block;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*='col'] {
+    float: left;
+}
+.col0 {
+    display: none;
+}
+
+.col1 {
+    width: 8.3333%;
+}
+
+.col_offset_1 {
+    margin-left: 8.3333%;
+}
+
+.col2 {
+    width: 16.667%;
+}
+
+.col_offset_2 {
+    margin-left: 16.667%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+.col_offset_3 {
+    margin-left: 25%;
+}
+
+.col4 {
+    width: 33.3333%;
+}
+
+.col_offset_4 {
+    margin-left: 33.3333%;
+}
+
+.col5 {
+    width: 41.6667%;
+}
+
+.col_offset_5 {
+    margin-left: 41.6667%;
+}
+
+.col6 {
+    width: 50%;
+}
+
+.col_offset_6 {
+    margin-left: 50%;
+}
+
+.col7 {
+    width: 58.3333%;
+}
+
+.col_offset_7 {
+    margin-left: 58.3333%;
+}
+
+.col8 {
+    width: 66.6667%;
+}
+
+.col_offset_8 {
+    margin-left: 66.6667%;
+}
+
+.col9 {
+    width: 75%;
+}
+
+.col_offset_9 {
+    margin-left: 75%;
+}
+
+.col10 {
+    width: 83.3333%;
+}
+
+
+.col11 {
+    width: 91.6667%;
+}
+
+.col12 {
+    width: 100%;
+}
+
+.pull_left {
+    float: left
+}
+
+.pull_right {
+    float: right
+}
+
+.clear{
+    clear: both;
+}
+
+.inputs textarea,input{
+    width: 100%;
+    background: none;
+    border: none; 
+    outline: 0;
+    color: #ccc;
+    font-family: "Roboto", sans-serif;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+    
+@media only screen and (max-width: 1024px) {
+
+
+.multi_purpose .responsive {
+    position: unset;
+    margin: 5% 0% 0% 20%;
+}
+.multi_purpose .wordpress {
+    text-align: center;
+}
+.multi_purpose .wordpress p, .multi_purpose .wordpress h1 {
+    width: 950px;
+}
+.more_template .buy_theme, .more_template .view_more{
+    width: 100%;
+}
+.display {
+    display: block;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.info .icons ul {
+    width: 337px;
+}
+li .post_content {
+    margin-top: -10px;
+}
+.footer .contact {
+    margin-left: 0px;
+}
+.outer_team .team_member{
+	margin-right: 25px;
+}
+.multi_purpose .wordpress {
+    margin-left: -85px;
+}
+.symbols .symbol {
+    width: 33.333%;
+    /*float: left;*/
+}
+.content .text #pharagraph {
+    font-size: 15px;
+}
+.content .text #first, .content .text #second {
+    font-size: 55px;
+    margin-top: -30px;
+}
+.symbols {
+    margin-top: -40px;
+}
+.symbols .symbol {
+    margin-bottom: 20px;
+}
+
+
+
+    .col_offset_t_0 {
+        margin-left: 0px;
+    }
+    .col_t_0 {
+        display: none;
+    }
+    .col_t_1 {
+        width: 8.33%;
+    }
+    .col_t_2 {
+        width: 16.66%;
+    }
+    .col_t_3 {
+        width: 25%;
+    }
+    .col_t_4 {
+        width: 33.33%;
+    }
+    .col_t_5 {
+        width: 41.66%;
+    }
+    .col_t_6 {
+        width: 50%;
+    }
+    .col_t_7 {
+        width: 58.33%;
+    }
+    .col_t_8 {
+        width: 66.66%;
+    }
+    .col_t_9 {
+        width: 75%;
+    }
+    .col_t_10 {
+        width: 83.33%;
+    }
+    .col_t_11 {
+        width: 91.66%;
+    }
+    .col_t_12 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.multi_purpose .wordpress p, .multi_purpose .wordpress h1 {
+    width: 768px;
+}
+.more_template .buy_theme, .more_template .view_more{
+    width: 768px;
+}
+.footer .posts {
+    padding-left: 20px;
+}
+.footer .info {
+    margin-left: 20px;
+}
+.footer .contact {
+    margin-left: 20px;
+}
+.team_slider {
+    margin-left: 20%;
+}
+.upline .heading {
+    text-align: center;
+}
+.upline .buttons {
+    margin-right: 37%;
+}
+.multi_purpose .more_template {
+    margin-left: -16%;
+}
+.outer_team .team_member{
+	margin: 0px 10px 0px 0px;
+}
+.team_slider {
+    margin-left: 0px;
+}
+.clients .quotes {
+    height: 420px;
+}
+.content .text #pharagraph {
+    font-size: 15px;
+}
+.content .text #first, .content .text #second {
+    font-size: 50px;
+    margin-top: -50px;
+}
+.text .title {
+    margin-top: -20px;
+}
+.symbols {
+    margin-top: -65px;
+}
+.symbols .symbol {
+    margin-bottom: 25px;
+}
+
+
+
+
+    .multi_purpose .responsive {
+    position: unset;
+    margin: 5% 0% 0% 15%;
+    }
+    .col_p_offset_0 {
+    margin-left: 0px;        
+    }
+    .col_p_0 {
+        display: none;
+    }
+    .col_p_1 {
+        width: 8.33%;
+    }
+    .col_p_2 {
+        width: 16.66%;
+    }
+    .col_p_3 {
+        width: 25%;
+    }
+    .col_p_4 {
+        width: 33.33%;
+    }
+    .col_p_5 {
+        width: 41.66%;
+    }
+    .col_p_6 {
+        width: 50%;
+    }
+    .col_p_7 {
+        width: 58.33%;
+    }
+    .col_p_8 {
+        width: 66.66%;
+    }
+    .col_p_9 {
+        width: 75%;
+    }
+    .col_p_10 {
+        width: 83.33%;
+    }
+    .col_p_11 {
+        width: 91.66%;
+    }
+    .col_p_12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+#searchbutton {
+    width: 50%;
+}
+.multi_purpose .wordpress p, .multi_purpose .wordpress h1 {
+    width: 448px;
+}
+.more_template .buy_theme, .more_template .view_more{
+    width: 468px;
+}
+
+.outer_team .team_member{
+	margin: 0px 20px 0px 0px;
+}
+.logos .logo {
+    margin-left: 100px;
+}
+.about_team .directs {
+    margin-top: 70px;
+}
+.team_slider {
+    margin-left: 0%;
+}
+.multi_purpose {
+    margin-left: 0px;
+}
+.multi_purpose .wordpress {
+    margin-left: 10px;
+}
+.multi_purpose .more_template {
+    margin-left: 0%;
+}
+
+.upline .buttons {
+    margin-right: 30%;
+}
+.header .logo {
+    margin-left: 25%;
+}
+.header i, .header .search {
+    padding-bottom: 20px;
+}
+/*#searchbutton {
+    margin-left: 10%;
+}*/
+
+    .multi_purpose .responsive {
+    position: unset;
+    margin: 5% 0% 0% 0%;
+    }
+
+    .col_m_0 {
+        display: none;
+    }
+    .col_m_1 {
+        width: 8.33%;
+    }
+    .col_m_2 {
+        width: 16.66%;
+    }
+    .col_m_3 {
+        width: 25%;
+    }
+    .col_m_4 {
+        width: 33.33%;
+    }
+    .col_m_5 {
+        width: 41.66%;
+    }
+    .col_m_6 {
+        width: 50%;
+    }
+    .col_m_7 {
+        width: 58.33%;
+    }
+    .col_m_8 {
+        width: 66.66%;
+    }
+    .col_m_9 {
+        width: 75%;
+    }
+    .col_m_10 {
+        width: 83.33%;
+    }
+    .col_m_11 {
+        width: 91.66%;
+    }
+    .col_m_12 {
+        width: 100%;
+    }
+}
+
+
